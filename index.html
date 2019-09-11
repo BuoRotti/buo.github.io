@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Product Landing</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href='Silverfake-Regular.ttf' rel='stylesheet' type="txt/css">
+  <link href='Enriqueta-Bold.otf' rel='stylesheet' type="txt/css">
+  <link href='Cunia.ttf' rel='stylesheet' type="txt/css">
+  
+  <link rel="stylesheet" type="text/css" href="sole.css">
+  <title>Font Awesome 5 Icons</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+ 
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+  <link rel='stylesheet' href='fontawesome.min.css'>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  
+  <script src="fontAwesome_all.js"></script>
+    
+  
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ 
+</head>
+
+<body>
+    <script>document.querySelector('.card').onmousemove = (e) => {
+        const x = e.pageX - e.target.offsetLeft;
+        const y = e.pageY - e.target.offsetTop;
+  
+        e.target.style.setProperty('--x', `${ x }px`)
+        e.target.style.setProperty('--y', `${ y }px`)
+    } </script>
+
+  <div id="page-wrapper">
+    <span id="top"></span>
+    <header id="header" class="fillwidth fillheight">
+      <a href="#top" data-ajax="false">
+        <div class="logo">
+
+          <img id="header-img" src="Soaring_Kites.png" alt="Authentic Kite icon" />
+        </div class="logo"></a>
+       
+      
+      <section class="nav-bar">
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" data-ajax="false" href="#mark">HALLMARK</a></li>
+            <li><a class="nav-link" data-ajax="false" href="#show">DRILL</a></li>
+            <li><a class="nav-link" data-ajax="false" href="#value">VALUE</a></li>
+          </ul>
+        </nav>
+      </section id="nav-bar">
+    </header>
+    <div class="container"></div>
+    <div class="cover">
+    <div class="card" style="--x: 0; --y:0">
+      
+    <section class="trait">
+      <h2 class="Cunia">Handcrafted, in-house designed, and well build</h2>
+      <form id="form" class="form" action="#.html">
+        <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+        <input id="submit" type="submit" value="Get Started" class="btn" />
+      </form>
+    </section class="trait">
+  
+    </div class="card">
+    </div class="cover">
+    
+    <div class="container"></div>
+    <br><br><br><br>
+    <span id="mark"></span>
+       
+    <div class="enclose">
+      
+      <section id="hallmark">
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-check"></i></div>
+          <div class="desc">
+            <h2 class="Cunia">Outstanding Materials</h2>
+            <p>
+              We provides kites that assembled with fiberglass frames which are firm. This
+              will increase the longevity of items.
+            </p>
+          </div class="desc">
+        </div class="grid">
+
+        <div class="grid">
+          <div class="icon"><i class="fa fa-3x fa-truck-loading"></i></div>
+          <div class="desc">
+            <h2 class="Cunia">Timely Delivery</h2>
+            <p>
+              We make sure you receive goods as poscribed on your purchase order.
+              We also provide free returns if you are not satisfied.
+            </p>
+          </div class="desc">
+        </div class="grid">
+
+        <div class="grid">
+          <div class="icon">
+            <i class="fa fa-3x fa-bullseye" aria-hidden="true"></i>
+          </div class="icon">
+          <div class="desc">
+            <h2 class="Cunia">Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages or
+              faults of your chosen items.
+            </p>
+          </div class="desc">
+        </div class="grid">
+      </section id="hallmark">
+    </div class="enclose">
+        <br><br><br><br>
+        <span id="show"></span>
+        <br><br><br><br>
+
+        <section id="drill">
+          <iframe id="video" height="315" src="How_to_Fly_a_Kite_Chris_Maxa.mp4" frameborder="0"
+            allowfullscreen></iframe>
+        </section id="drill">
+
+        <section id="value">
+          <div class="product" id="kite-1">
+
+            <a class="textOverImage" data-title="French Military $60.00" data-text="
+            
+            Our French Military is 6 feet wide and 3.5 feet tall;
+            We make it from tough nylon sailcloth with fiberglass framing;
+            A colorful 9 foot tail and fabric bag are included;
+            Fly a fun piece of history!;">
+            </a>
+            <button class="btn">Select</button>
+          </div id="kite-1">
+
+          <div class="product" id="kite-2">
+
+            <a class="textOverImage" data-title="Falcon Delta-10ft  $130.0" data-text="These are great kites for recreational flying, but also practical tools for lifting cameras or other lightweight equipment.
+
+          Like all of our deltas, the leading edge spars are sewn in place so they won't creep up to the nose.">
+            </a>
+            <button class="btn">Select</button>
+          </div id="kite-2">
+
+          <div class="product" id="kite-3">
+
+            <a class="textOverImage" data-title="Bird on the wire  $120.00"
+              data-text="Rollers are excellent fliers. They handle like a rokkaku, but have the added stability of a keeled delta. The result is lift, performance, and dependability.
+
+                This is a large, modernistic kite design which has a bold presence in the sky. The eight foot wing provides plenty of loft in light breezes. And the extended tail adds all the stability you need.">
+            </a>
+            <button class="btn">Select</button>
+
+          </div id="kite-3">
+        </section id="value">
+       
+
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>All Rights reserved 2019, Soaring Kites</span>
+        </footer>
+      
+</div class="page-wrapper">
+      
+</body>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
